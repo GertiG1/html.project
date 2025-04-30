@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular Kontakti</title>
+</head>
+<body>
+    <h1>Na Kontaktoni për Bashkëpunim</h1>
+    <p>Plotësoni formularin dhe ne do ju kontaktojmë sa më shpejt.</p>
+
+    <form action="#" method="post">
+        <label for="emri">Emri i plotë:</label><br>
+        <input type="text" id="emri" name="emri" required><br><br>
+
+        <label for="email">Emaili:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefoni">Numri i telefonit:</label><br>
+        <input type="tel" id="telefoni" name="telefoni"><br><br>
+
+        <label for="kompania">Kompania:</label><br>
+        <input type="text" id="kompania" name="kompania"><br><br>
+
+        <label for="sherbimi">Shërbimi që ju intereson:</label><br>
+        <select id="sherbimi" name="sherbimi" required>
+            <option value="">-- Zgjidh një opsion --</option>
+            <option value="reklamim">Reklamim Online</option>
+            <option value="branding">Branding & Identitet Vizual</option>
+            <option value="rrjete">Rrjete Sociale</option>
+            <option value="web">Krijim Faqeje Web</option>
+            <option value="tjeter">Tjetër</option>
+        </select><br><br>
+
+        <label for="buxheti">Buxheti i përafërt:</label><br>
+        <input type="radio" id="buxhet1" name="buxheti" value="0-500" required>
+        <label for="buxhet1">0 - 500 €</label><br>
+        <input type="radio" id="buxhet2" name="buxheti" value="500-1000">
+        <label for="buxhet2">500 - 1000 €</label><br>
+        <input type="radio" id="buxhet3" name="buxheti" value="1000+">
+        <label for="buxhet3">1000 €+</label><br><br>
+
+        <label for="mesazhi">Mesazhi juaj:</label><br>
+        <textarea id="mesazhi" name="mesazhi" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Dërgo">
+    </form>
+
+    <br>
+    <!-- Link për t'u kthyer në faqen kryesore -->
+    <a href="idex.html">⬅ Kthehu te faqja kryesore</a>
+</body>
+</html>
