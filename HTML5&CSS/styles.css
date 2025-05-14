@@ -1,0 +1,59 @@
+/* Font dhe stil bazë */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Kutia e profilit e pozicionuar në qendër */
+.profile-box {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+/* Emri */
+.emri {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Paragrafi */
+.pershkrimi {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Butoni */
+.kontakto {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Pseudo-klasa për butonin */
+.kontakto:hover {
+  background-color: #0056b3;
+}
+
+.kontakto:active {
+  transform: scale(0.98);
+}
+
+/* Pseudo-klasa për emrin */
+.emri::after {
+  content: " 🌟";
+  font-size: 18px;
+}
